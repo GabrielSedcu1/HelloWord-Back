@@ -1,5 +1,5 @@
 🌍 Hello World API - Backend
-Este é o backend do projeto Hello World API, desenvolvido com Spring Boot e Java 21. Ele fornece uma API RESTful simples que permite cadastrar um nome e retornar uma saudação personalizada — ideal para testes com frontend em React ou estudos de APIs REST.
+Este é o backend do projeto Hello World API, desenvolvido com Spring Boot. Ele fornece uma API RESTful simples que permite cadastrar um nome e retornar uma saudação personalizada — ideal para estudos, integrações com frontend ou demonstrações de APIs.
 
 🔗 Repositório: HelloWord-Back
 
@@ -17,13 +17,13 @@ Este é o backend do projeto Hello World API, desenvolvido com Spring Boot e Jav
 
 ⚙️ Como rodar o projeto localmente
 ✅ Pré-requisitos
-Java 21 instalado
+Java 21 instalado e configurado
 
 IDE (Eclipse, IntelliJ ou VSCode)
 
 Lombok configurado na IDE
 
-Postman ou Insomnia para testar a API
+Postman (ou Insomnia) para testar a API
 
 ▶️ Passos para rodar:
 Clone o repositório:
@@ -63,7 +63,7 @@ arduino
 Copiar
 Editar
 http://localhost:8080/Hello_World
-Retorno:
+Se um nome tiver sido salvo, retorna:
 
 nginx
 Copiar
@@ -91,8 +91,8 @@ Copiar
 Editar
 Nome salvo com sucesso: Veronica
 📚 Referência
-Projeto desenvolvido com base nas boas práticas do ecossistema Spring Boot. Ideal para estudos, integrações com frontend (React, Angular, etc.) e demonstrações em portfólio.
+Projeto desenvolvido com base nas boas práticas do ecossistema Spring Boot. Ideal para estudos, integração com React e aprendizado de construção de APIs RESTful básicas.
 
 🎥 Vídeo Sugerido
-Como criar uma aplicação Fullstack com Java e React – Fernanda Kipper
+Como criar uma aplicação Fullstack com Java e React - Fernanda Kipper
 
