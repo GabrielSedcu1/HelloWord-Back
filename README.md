@@ -1,36 +1,45 @@
 🌍 Hello World API - Backend
-Este é o backend do projeto Hello World API, desenvolvido com Spring Boot. Ele fornece uma API RESTful simples que permite cadastrar um nome e retornar uma saudação personalizada — ideal para estudos, integrações com frontend ou demonstrações de APIs.
 
-🔗 Repositório: HelloWord-Back
+Este é o backend do projeto **Hello World API**, desenvolvido com **Spring Boot**. Ele fornece uma API RESTful simples que permite cadastrar um nome e retornar uma saudação personalizada — ideal para estudos, integrações com frontend ou demonstrações de APIs.
 
-🧪 Tecnologias Utilizadas
-✅ Java 21
-✅ Eclipse IDE
-✅ Postman
-✅ Lombok
-✅ Maven
+🔗 **Repositório**: [HelloWord-Back](https://github.com/GabrielSedcu1/HelloWord-Back)
 
-📦 Dependências
-✅ Spring Boot DevTools
-✅ Spring Web
-✅ Lombok
+---
 
-⚙️ Como rodar o projeto localmente
-✅ Pré-requisitos
-Java 21 instalado
+## 🚀 Tecnologias Utilizadas
 
-IDE (Eclipse, IntelliJ ou VSCode)
+✅ Java 21  
+✅ Eclipse IDE  
+✅ Postman  
+✅ Lombok  
+✅ Maven  
 
-Lombok configurado na IDE
+---
 
-Postman (ou Insomnia) para testar a API
+## 📦 Dependências
 
-▶️ Passos para rodar
+✅ Spring Boot DevTools  
+✅ Spring Web  
+✅ Lombok  
+
+---
+
+## ⚙️ Como rodar o projeto localmente
+
+### ✅ Pré-requisitos
+
+- Java 21 instalado  
+- IDE (Eclipse, IntelliJ ou VSCode)  
+- Lombok configurado na IDE  
+- Postman (ou Insomnia) para testar a API  
+
+---
+
+### ▶️ Passos para rodar
+
 Clone o repositório:
 
-bash
-Copiar
-Editar
+```bash
 git clone https://github.com/GabrielSedcu1/HelloWord-Back.git
 cd HelloWord-Back
 Abra o projeto em sua IDE, aguarde o Maven instalar as dependências e execute a classe HelloWorldApplication.
@@ -55,7 +64,7 @@ src
 │   └── resources
 │       └── application.properties
 └── test
-📬 Testes com Postman
+🧪 Testes com Postman
 📌 Obter saudação
 GET
 
@@ -63,7 +72,7 @@ arduino
 Copiar
 Editar
 http://localhost:8080/Hello_World
-Retorno:
+Resposta:
 
 nginx
 Copiar
@@ -95,4 +104,3 @@ Projeto desenvolvido com base nas boas práticas do ecossistema Spring Boot, ide
 
 🎥 Vídeo Sugerido:
 Como criar uma aplicação Fullstack com Java e React – Fernanda Kipper
-
