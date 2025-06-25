@@ -1,24 +1,18 @@
 🌍 Hello World API - Backend
-Este é o backend do projeto Hello World API, desenvolvido com Spring Boot e Java 21. Ele fornece uma API RESTful simples que permite cadastrar um nome e retornar uma saudação personalizada. Ideal para testes de integração com frontends em React ou estudos com APIs REST.
+Este é o backend do projeto Hello World API, desenvolvido com Spring Boot e Java 21. Ele fornece uma API RESTful simples que permite cadastrar um nome e retornar uma saudação personalizada — ideal para testes com frontend em React ou estudos de APIs REST.
 
 🔗 Repositório: HelloWord-Back
 
 🚀 Tecnologias Utilizadas
 ✅ Java 21
-
 ✅ Eclipse IDE
-
 ✅ Postman
-
 ✅ Lombok
-
 ✅ Maven
 
 📦 Dependências
 ✅ Spring Boot DevTools
-
 ✅ Spring Web
-
 ✅ Lombok
 
 ⚙️ Como rodar o projeto localmente
@@ -29,7 +23,7 @@ IDE (Eclipse, IntelliJ ou VSCode)
 
 Lombok configurado na IDE
 
-Postman (ou Insomnia) para testar a API
+Postman ou Insomnia para testar a API
 
 ▶️ Passos para rodar:
 Clone o repositório:
@@ -39,11 +33,7 @@ Copiar
 Editar
 git clone https://github.com/GabrielSedcu1/HelloWord-Back.git
 cd HelloWord-Back
-Abra o projeto em sua IDE
-
-Aguarde o Maven instalar as dependências
-
-Execute a classe HelloWorldApplication
+Abra o projeto em sua IDE, aguarde o Maven instalar as dependências e execute a classe HelloWorldApplication para iniciar o servidor.
 
 A aplicação estará disponível em:
 👉 http://localhost:8080/Hello_World
@@ -73,7 +63,7 @@ arduino
 Copiar
 Editar
 http://localhost:8080/Hello_World
-Se um nome tiver sido salvo antes, retorna:
+Retorno:
 
 nginx
 Copiar
@@ -101,7 +91,7 @@ Copiar
 Editar
 Nome salvo com sucesso: Veronica
 📚 Referência
-Projeto desenvolvido com base nas boas práticas do ecossistema Spring Boot, ideal para aprendizado, integração com frontend em React, e como exemplo de API REST básica.
+Projeto desenvolvido com base nas boas práticas do ecossistema Spring Boot. Ideal para estudos, integrações com frontend (React, Angular, etc.) e demonstrações em portfólio.
 
 🎥 Vídeo Sugerido
 Como criar uma aplicação Fullstack com Java e React – Fernanda Kipper
