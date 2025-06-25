@@ -51,21 +51,23 @@ Copiar
 Editar
 http://localhost:8080/Hello_World
 📁 Estrutura de Pastas
-plaintext
+css
 Copiar
 Editar
-src/
-├── main/
-│   ├── java/
-│   │   └── com.kipper.first_spring_app/
-│   │       ├── controller/
-│   │       │   └── HelloWorldController.java
-│   │       ├── service/
-│   │       │   └── HelloWorldService.java
-│   │       └── entity/
-│   │           └── User.java
-│   └── resources/
-│       └── application.properties
+src
+└── main
+    ├── java
+    │   └── com
+    │       └── kipper
+    │           └── first_spring_app
+    │               ├── controller
+    │               │   └── HelloWorldController.java
+    │               ├── service
+    │               │   └── HelloWorldService.java
+    │               └── entity
+    │                   └── User.java
+    └── resources
+        └── application.properties
 📋 Endpoints da API
 🔸 GET /Hello_World
 Retorna uma saudação. Se um nome foi salvo antes, responde:
