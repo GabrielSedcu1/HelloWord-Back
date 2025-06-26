@@ -64,6 +64,10 @@ src
 │   └── resources
 │       └── application.properties
 └── test
+
+ATENÇAO!!! : No arquivo src/main/resources/application.properties está configurado o usuário root sem senha para conexão com o banco.
+Se você for baixar e usar o projeto, certifique-se de que seu MySQL tenha o usuário root com senha vazia ou ajuste o arquivo application.properties para refletir seu usuário e senha do MySQL.
+
 🧪 Testes com Postman
 📌 Obter saudação
 GET
